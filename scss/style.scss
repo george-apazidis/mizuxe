@@ -31,6 +31,12 @@ body {
     }
 }
 
+.accordion {
+    .card-header:hover {
+        cursor: pointer;
+    }
+}
+
 @media (max-width: 768px) {
     #showcase {
         min-height: 500px;
